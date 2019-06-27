@@ -33,4 +33,4 @@ You should see "Welcome To System Engineering Team"
 
 As the organisation uses Slack for internal communication, the first thing should come to our minds how to integrate and display the status and logs (if possible) of CloudFormation stacks on the team channel , the below diagram will explain an approach how we can do this
 
-<img width="947" alt="Screen Shot 2019-06-27 at 11 25 09 PM" src="https://user-images.githubusercontent.com/28259567/60302170-76619800-9933-11e9-82ae-b895b406db4f.png">
+<img width="1365" alt="Screen Shot 2019-06-27 at 11 37 11 PM" src="https://user-images.githubusercontent.com/28259567/60302618-8fb71400-9934-11e9-93f4-84e14f3f81ab.png">
