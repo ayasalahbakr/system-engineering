@@ -1,9 +1,9 @@
 # system-engineering-App
 By launching this application you will have an environment that contains mysql database attached to data container and nginx server on top of that there is a simple java springboot application that echo "Welcome To System Engineering Team" on the browser using nginx and the application connected to mysql database.
 
-===================================================================================================
+===============
 #Part 1: Docker
-===================================================================================================
+===============
 
 ##Getting Started
 These instructions will get you a copy of the project up and running on your local machine for 
@@ -24,9 +24,9 @@ You should see "Welcome To System Engineering Team"
 1) Java Springboot Platform for running the application
 2) Docker-Composer to build the environment (application + MySql + Data Conatiner + Nginx)
 3) Some shell commands to generate ssl self signed certificate and dhparam key
-    ###For generating ssl certificate:
+    For generating ssl certificate:
         - openssl req -x509 -sha256 -nodes -newkey rsa:2048 -days 365 -keyout localhost.key -out    localhost.crt
-    ###For generating dhparam key:
+    For generating dhparam key:
         - openssl req -x509 -sha256 -nodes -newkey rsa:2048 -days 365 -keyout localhost.key -out localhost.crt
         - openssl dhparam -out dhparam.pem 1024
 
