@@ -1,4 +1,4 @@
-# system-engineering-App
+# System-Engineering-App
 By launching this application you will have an environment that contains mysql database attached to data container and nginx server on top of that there is a simple java springboot application that echo "Welcome To System Engineering Team" on the browser using nginx and the application connected to mysql database.
 
 # Part 1: Docker
