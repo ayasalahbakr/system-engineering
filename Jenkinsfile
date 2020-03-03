@@ -19,7 +19,7 @@ pipeline {
 
 			}
         }
-        }
+        
         stage('Deploy Docker') {
 	     	steps {
             sh """
@@ -28,3 +28,4 @@ pipeline {
 	       	}
    	 	}
     }
+}
