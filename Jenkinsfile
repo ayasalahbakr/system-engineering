@@ -8,7 +8,6 @@ pipeline {
 				  
 			    	}
 				}
-			}
 		stage('Docker') {
         	steps {
      	withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'ayasalah', passwordVariable: 'V0daf0ne_6392')]) {
@@ -19,7 +18,7 @@ pipeline {
 
 			}
         }
-        
+        }
         stage('Deploy Docker') {
 	     	steps {
             sh """
