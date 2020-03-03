@@ -10,8 +10,8 @@ pipeline {
 				}
 		stage('Docker') {
         	steps {
-     	withCredentials([usernamePassword(credentialsId: 'dockerhub', usernameVariable: 'ayasalah', passwordVariable: 'V0daf0ne_6392')]) {
-          					sh """
+     					sh """
+                                docker login -p ayasalah -u V0daf0ne_6392
 				                docker-compose build -t ayasalah/devops-assessment:V0.1 .            
 				                docker-compose push ayasalah/devops-assessment:V0.1                             
 			     			"""
